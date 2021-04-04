@@ -4,14 +4,14 @@ import { JustItem } from "../JustItem"
 export const FirstRangItem = ( {FirstRangTitle, ItemArr = [], src} ) => {
 
     const openInfo = () =>{
-        let aa = document.querySelector(`#${FirstRangTitle}`)
-            aa.classList.toggle('toggled')
-            let bb = document.querySelector(`#${FirstRangTitle}1`)
-            bb.classList.toggle('toggled-strelka')
-            let cc = document.querySelector(`#${FirstRangTitle}2`)
-            cc.classList.toggle('toggled-color')
-            let dd = document.querySelector(`#${FirstRangTitle}3`)
-            dd.classList.toggle('toggled-border')
+        let menuField = document.querySelector(`#${FirstRangTitle}`)
+            menuField.classList.toggle('toggled')
+            let arrow = document.querySelector(`#${FirstRangTitle}1`)
+            arrow.classList.toggle('toggled-strelka')
+            let changeColor = document.querySelector(`#${FirstRangTitle}2`)
+            changeColor.classList.toggle('toggled-color')
+            let changeBorder = document.querySelector(`#${FirstRangTitle}3`)
+            changeBorder.classList.toggle('toggled-border')
         }
     return (
         <li>
